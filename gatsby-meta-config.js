@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Bee starter`,
+  title: `FlowerGeoji Tech Blog`,
   description: `Blog posted about ...`,
-  author: `[Your Name]`,
+  author: `FlowerGeoji`,
   introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  siteUrl: `https://flowergeoji.github.io/gatsby-blog/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -13,7 +13,7 @@ module.exports = {
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: ["blog", "frontend", "react", "javascript", "typescript"],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
