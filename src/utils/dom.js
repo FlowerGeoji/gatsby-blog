@@ -9,7 +9,10 @@ export const hasClass = (element, className) =>
   element.classList.contains(className)
 export const getBody = () => getElement(BODY)
 export const addClassToBody = className => addClass(getBody(), className)
-export const removeClassToBody = className => removeClass(getBody(), className)
+export const removeClassToBody = className => {
+  removeClass(getBody(), className)
+  console.log({ className })
+}
 export const hasClassOfBody = className => hasClass(getBody(), className)
 export const getRect = className =>
   getElement(className).getBoundingClientRect()

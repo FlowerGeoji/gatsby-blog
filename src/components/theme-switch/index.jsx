@@ -56,6 +56,7 @@ export const ThemeSwitch = () => {
 
   const handleChange = checked => {
     const theme = getTheme(checked)
+    console.log({ checked, theme })
 
     Storage.setTheme(checked)
     setChecked(checked)
