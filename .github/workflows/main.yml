@@ -33,7 +33,11 @@ jobs:
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         env:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_SECRET_KEY }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
           PUBLISH_DIR: ./public
+          USER_NAME: 'FlowerGeoji'
+          USER_EMAIL: 'flowergeoji@gmail.com'
           
         
