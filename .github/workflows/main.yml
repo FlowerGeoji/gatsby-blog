@@ -28,7 +28,7 @@ jobs:
       - name: build
         run: yarn build
         env:
-          GH_API_KEY: ${{ secrets.API_KEY }}
+          GH_API_KEY: ${{ secrets.PERSONAL_TOKEN }}
         
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
